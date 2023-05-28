@@ -167,7 +167,7 @@ if __name__ == '__main__':
     colony = Colony(len(distance[0]))
 
     # Шукаємо шлях доки дистанція буде не менше 5000 км.
-    maxDistanceExpected = 4000
+    maxDistanceExpected = 5000
     totalDistance = maxDistanceExpected
     while totalDistance >= maxDistanceExpected:
         result = colony.find_route(cityMap, 3)
